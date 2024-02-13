@@ -25,7 +25,7 @@ body {
 }
 .header {
     background-color: rgb(5, 108, 108);
-    min-height: 150px;
+    min-height: 100px;
 }
 .content {
     background-color: white;
@@ -35,4 +35,12 @@ body {
 .footer {
     background-color: rgb(99, 56, 240);
     min-height: 150px;
+}
+.header {
+    background-color: white;
+    height: 150px; /* Manter a altura do cabeçalho */
+    background-image: url('imagens/sccp-logo.png');
+    background-size: 450px auto; /* Largura fixa de 200px e altura automática */
+    background-position: center; /* Centralizar a imagem */
+    background-repeat: no-repeat; /* Evitar repetição da imagem */
 }
